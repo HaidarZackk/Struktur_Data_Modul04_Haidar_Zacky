@@ -644,10 +644,10 @@ int main(){
 ![Output 2](https://github.com/HaidarZackk/Struktur_Data_Modul04_Haidar_Zacky/blob/main/soal_2/Output-Unguided2.png)
 
 **Penjelasan:**
-- Bagian atas `main.cpp` sama dengan Latihan 1, sehingga list awal adalah 9 → 12 → 8 → 0 → 2.
-- `deleteFirst` memindahkan `first` ke node 12 lalu mendealokasi node 9. List menjadi 12 → 8 → 0 → 2.
-- `deleteLast` mencari node sebelum terakhir (`Q->next->next == Nil`), memutus `Q->next`, lalu mendealokasi node 2. List menjadi 12 → 8 → 0. Bila list hanya berisi satu node, `first` dikembalikan menjadi `Nil`.
-- `deleteAfter(P4, hapus)` dengan `P4` menunjuk node 12 menghapus node setelahnya, yaitu 8, dengan cara `Prec->next = P->next`. List menjadi 12 → 0.
+- Bagian atas `main.cpp` sama dengan Latihan 1, sehingga list awal adalah 9 -> 12 → 8 -> 0 -> 2.
+- `deleteFirst` memindahkan `first` ke node 12 lalu mendealokasi node 9. List menjadi 12 -> 8 -> 0 -> 2.
+- `deleteLast` mencari node sebelum terakhir (`Q->next->next == Nil`), memutus `Q->next`, lalu mendealokasi node 2. List menjadi 12 -> 8 -> 0. Bila list hanya berisi satu node, `first` dikembalikan menjadi `Nil`.
+- `deleteAfter(P4, hapus)` dengan `P4` menunjuk node 12 menghapus node setelahnya, yaitu 8, dengan cara `Prec->next = P->next`. List menjadi 12 -> 0.
 - `nbList` menghitung node dengan penelusuran sehingga menghasilkan 2. `deleteList` memanggil `deleteFirst` berulang sampai `first` bernilai `Nil`, sehingga seluruh memori dibebaskan dan `nbList` menghasilkan 0.
 - Output program: `12 0`, `Jumlah node : 2`, baris kosong, `- List Berhasil Terhapus -`, `Jumlah node : 0`, sama dengan output yang diharapkan pada soal.
 
