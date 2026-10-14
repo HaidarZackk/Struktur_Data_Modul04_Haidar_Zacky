@@ -451,7 +451,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Output 1]()
+![Output 1](https://github.com/HaidarZackk/Struktur_Data_Modul04_Haidar_Zacky/blob/main/soal_1/Output-Unguided1.png)
 
 **Penjelasan:**
 - `Singlylist.h` ditulis mengikuti spesifikasi pada soal: `infotype` bertipe `int`, `address` berupa pointer ke `ElmList`, `ElmList` berisi `info` dan `next`, serta `List` berisi `first`. Prosedur dan fungsinya persis lima buah seperti di soal, yaitu `createList`, `alokasi`, `dealokasi`, `printInfo`, dan `insertFirst`. Gaya komentar I.S./F.S. mengikuti contoh `list.h` pada modul.
@@ -641,7 +641,7 @@ int main(){
 ### Output Unguided 2 :
 
 ##### Output 2
-![Output 2]()
+![Output 2](https://github.com/HaidarZackk/Struktur_Data_Modul04_Haidar_Zacky/blob/main/soal_2/Output-Unguided2.png)
 
 **Penjelasan:**
 - Bagian atas `main.cpp` sama dengan Latihan 1, sehingga list awal adalah 9 → 12 → 8 → 0 → 2.
