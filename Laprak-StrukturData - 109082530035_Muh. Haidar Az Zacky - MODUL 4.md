@@ -458,7 +458,7 @@ int main(){
 - Pada spesifikasi, `dealokasi` bersifat *input/output* sehingga `P` dikirim by reference (`address &P`), sedangkan pada `insertFirst` hanya `L` yang *input/output* dan `P` berstatus *input* sehingga `P` dikirim by value (`address P`).
 - Spesifikasi di soal menulis `CreateList`, sedangkan `main.cpp` di soal memanggil `createList`. Karena C++ membedakan huruf besar dan kecil, nama yang dipakai adalah `createList` agar sesuai dengan `main.cpp` soal.
 - `main.cpp` sama dengan program utama di soal (hanya ditambah titik koma pada `printInfo(L);`). Karena `insertFirst` selalu menyisipkan di depan, data yang dimasukkan berurutan 2, 0, 8, 12, 9 terbaca terbalik menjadi **9 12 8 0 2**, sesuai gambar list pada soal.
-- Kompilasi: `g++ main.cpp Singlylist.cpp -o singlylist`.
+- Kompilasi: `g++ main.cpp Singlylist.cpp -o main`.
 
 ### 2. Dari soal Latihan pertama, lakukan penghapusan node 9 menggunakan deleteFirst(), node 2 menggunakan deleteLast(), dan node 8 menggunakan deleteAfter(). Kemudian tampilkan jumlah node yang tersimpan menggunakan nbList() dan lakukan penghapusan seluruh node menggunakan deleteList(). 
 
